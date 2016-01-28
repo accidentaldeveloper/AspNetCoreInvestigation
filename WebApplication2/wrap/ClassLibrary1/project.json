@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../ClassLibrary1/ClassLibrary1.csproj",
+      "bin": {
+        "assembly": "../../ClassLibrary1/obj/{configuration}/ClassLibrary1.dll",
+        "pdb": "../../ClassLibrary1/obj/{configuration}/ClassLibrary1.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.3"
+      }
+    }
+  }
+}
